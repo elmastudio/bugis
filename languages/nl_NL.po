@@ -1,0 +1,787 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bugis v1.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-08-02 17:14:49+0000\n"
+"Last-Translator: admin <ellen.bauer@elmastudio.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:14
+#@ bugis
+msgid "Not Found"
+msgstr "Niets gevonden"
+
+#: 404.php:18
+#@ bugis
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "Sorry, de opgevraagde pagina werd niet gevonden. Een nieuwe zoekaktie zou kunnen helpen."
+
+#: archive.php:15
+#, php-format
+#@ bugis
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Dagelijkse Archieven: <span>%s</span>"
+
+#: archive.php:17
+#, php-format
+#@ bugis
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Maandelijkse Archieven: <span>%s</span>"
+
+#: archive.php:19
+#, php-format
+#@ bugis
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Jaarlijkse Archieven: <span>%s</span>"
+
+#: archive.php:21
+#@ bugis
+msgid "Blog Archives"
+msgstr "Blog Archieven"
+
+#: category.php:27
+#@ piha
+msgid "&laquo; Older posts"
+msgstr "&laquo; Oudere artikelen"
+
+#: category.php:28
+#@ piha
+msgid "Newer posts &raquo;"
+msgstr "Nieuwere artikelen &raquo;"
+
+#: author.php:15
+#, php-format
+#@ bugis
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr "Auteur Archieven: <span class=\"vcard\">%s</span>"
+
+#: category.php:12
+#, php-format
+#@ bugis
+msgid "Category Archives: %s"
+msgstr "Categorie Archieven: %s"
+
+#: comments.php:10
+#@ bugis
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Dit artikel is beveiligd met een wachtwoord. Voer het wachtwoord in om reactie te bekijken."
+
+#: comments.php:35
+#@ bugis
+msgid "Newer Comments &rarr;"
+msgstr "Nieuwere Reacies &rarr;"
+
+#: comments.php:36
+#@ bugis
+msgid "&larr; Older Comments"
+msgstr "&larr; Oudere Reacties"
+
+#: comments.php:52
+#@ bugis
+msgid "Comments are closed."
+msgstr "Reageren is niet mogelijk."
+
+#: comments.php:64
+#@ bugis
+msgctxt "noun"
+msgid "Message <span class=\"required\">*</span>"
+msgstr "Bericht <span class=\"required\">*</span>"
+
+#: comments.php:65
+#@ bugis
+msgid "Send"
+msgstr "Sturen"
+
+#: content-aside.php:17
+#: content-audio.php:21
+#: content-chat.php:21
+#: content-image.php:16
+#: content-link.php:17
+#: content-quote.php:17
+#: content-status.php:17
+#: content-video.php:21
+#: content.php:32
+#@ bugis
+msgid "Continue Reading &rarr;"
+msgstr "Lees verder &rarr;"
+
+#: content-aside.php:18
+#: content-audio.php:22
+#: content-chat.php:22
+#: content-gallery.php:49
+#: content-image.php:17
+#: content-link.php:18
+#: content-page.php:16
+#: content-quote.php:18
+#: content-single.php:28
+#: content-status.php:18
+#: content-video.php:22
+#: content.php:33
+#@ bugis
+msgid "Pages:"
+msgstr "Pagina's:"
+
+#: content-audio.php:17
+#: content-chat.php:17
+#: content-gallery.php:17
+#: content-gallery.php:45
+#: content-single.php:20
+#: content-video.php:17
+#: content.php:19
+#: image.php:19
+#, php-format
+#@ bugis
+msgid "Permalink to %s"
+msgstr "Permanente link naar %s"
+
+#: content-gallery.php:23
+#: content-gallery.php:41
+#@ bugis
+msgid "View the pictures &rarr;"
+msgstr "Bekijk de afbeeldingen &rarr;"
+
+#. gettext fix: duplicate plural forms found, that may be ambiguous! Please check the code!
+#: content-gallery.php:44
+#, php-format
+#@ bugis
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s pictures.</a>"
+msgstr[0] "Deze galerij bevat <a %1$s>%2$s afbeelding</a>."
+msgstr[1] "Deze galerij bevat <a %1$s>%2$s afbeeldingen.</a>"
+
+#: content-single.php:35
+#, php-format
+#@ bugis
+msgid "Author: %s"
+msgstr "Auteur: %s"
+
+#: footer.php:22
+#@ bugis
+msgid "Proudly powered by"
+msgstr "Proudly powered by"
+
+#: footer.php:22
+#, php-format
+#@ bugis
+msgid "Theme: %1$s by %2$s"
+msgstr "Theme: %1$s door %2$s"
+
+#: functions.php:75
+#@ bugis
+msgid "Primary Navigation"
+msgstr "Primaire Navigatie"
+
+#: functions.php:108
+#@ bugis
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lees verder <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:159
+#, php-format
+#@ bugis
+msgid "%s"
+msgstr "%s"
+
+#: functions.php:174
+#@ bugis
+msgid "Your comment is awaiting moderation."
+msgstr "Uw reactie wacht op goedkeuring."
+
+#: functions.php:168
+#@ bugis
+msgid "Reply"
+msgstr "Antwoord"
+
+#: functions.php:185
+#@ bugis
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:198
+#@ bugis
+msgid "Main Sidebar"
+msgstr "Hoofd Sidebar"
+
+#: functions.php:215
+#: functions.php:216
+#@ bugis
+msgid "Search"
+msgstr "Zoeken"
+
+#: functions.php:382
+#@ bugis
+msgid "Flickr Widget"
+msgstr "Flickr Widget"
+
+#: functions.php:416
+#: functions.php:733
+#@ bugis
+msgid "Title:"
+msgstr "Title:"
+
+#: functions.php:420
+#@ bugis
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\" target=\"_blank\">idGettr</a>):"
+msgstr "Flickr ID (<a href=\"http://www.idgettr.com\" target=\"_blank\">idGettr</a>):"
+
+#: functions.php:424
+#@ bugis
+msgid "Number of photos:"
+msgstr "Aantal foto's:"
+
+#: functions.php:432
+#@ bugis
+msgid "Choose user or group:"
+msgstr "Kies gebruiker of groep:"
+
+#: functions.php:434
+#@ bugis
+msgid "User"
+msgstr "Gebruiker"
+
+#: functions.php:435
+#@ bugis
+msgid "Group"
+msgstr "Groep"
+
+#: functions.php:439
+#@ bugis
+msgid "Show latest or random pictures:"
+msgstr "Toon meest recente of willekeurige afbeeldingen:"
+
+#: functions.php:441
+#@ bugis
+msgid "Latest"
+msgstr "Meest Recente"
+
+#: functions.php:442
+#@ bugis
+msgid "Random"
+msgstr "Willekeurig"
+
+#: functions.php:459
+#@ bugis
+msgid "Social Links Widget"
+msgstr "Social Links Widget"
+
+#: functions.php:847
+#@ bugis
+msgid "Twitter URL:"
+msgstr "Twitter URL:"
+
+#: functions.php:767
+#@ bugis
+msgid "Facebook URL:"
+msgstr "Facebook URL:"
+
+#: functions.php:797
+#@ bugis
+msgid "Google+ URL:"
+msgstr "Google+ URL:"
+
+#: functions.php:787
+#@ bugis
+msgid "Flickr URL:"
+msgstr "Flickr URL:"
+
+#: functions.php:827
+#@ bugis
+msgid "Picasa URL:"
+msgstr "Picasa URL:"
+
+#: functions.php:782
+#@ bugis
+msgid "500px URL:"
+msgstr "500px URL:"
+
+#: functions.php:742
+#@ bugis
+msgid "Delicious URL:"
+msgstr "Delicious URL:"
+
+#: functions.php:867
+#@ bugis
+msgid "YouTube URL:"
+msgstr "YouTube URL:"
+
+#: functions.php:852
+#@ bugis
+msgid "Vimeo URL:"
+msgstr "Vimeo URL:"
+
+#: functions.php:757
+#@ bugis
+msgid "Dribbble URL:"
+msgstr "Dribbble URL:"
+
+#: functions.php:772
+#@ bugis
+msgid "Ffffound URL:"
+msgstr "Ffffound URL:"
+
+#: functions.php:777
+#@ bugis
+msgid "Pinterest URL:"
+msgstr "Pinterest URL:"
+
+#: functions.php:872
+#@ bugis
+msgid "Zootool URL:"
+msgstr "Zootool URL:"
+
+#: functions.php:737
+#@ bugis
+msgid "Behance Network URL:"
+msgstr "Behance Network URL:"
+
+#: functions.php:837
+#@ bugis
+msgid "Squidoo URL:"
+msgstr "Squidoo URL:"
+
+#: functions.php:832
+#@ bugis
+msgid "Slideshare URL:"
+msgstr "Slideshare URL:"
+
+#: functions.php:812
+#@ bugis
+msgid "Last.fm URL:"
+msgstr "Last.fm URL:"
+
+#: functions.php:807
+#@ bugis
+msgid "Grooveshark URL:"
+msgstr "Grooveshark URL:"
+
+#: functions.php:817
+#@ bugis
+msgid "Soundcloud URL:"
+msgstr "Soundcloud URL:"
+
+#: functions.php:792
+#@ bugis
+msgid "Foursquare URL:"
+msgstr "Foursquare URL:"
+
+#: functions.php:802
+#@ bugis
+msgid "Gowalla URL:"
+msgstr "Gowalla URL:"
+
+#: functions.php:822
+#@ bugis
+msgid "Linkedin URL:"
+msgstr "Linkedin URL:"
+
+#: functions.php:862
+#@ bugis
+msgid "Xing URL:"
+msgstr "Xing URL:"
+
+#: functions.php:857
+#@ bugis
+msgid "WordPress URL:"
+msgstr "WordPress URL:"
+
+#: functions.php:842
+#@ bugis
+msgid "Tumblr URL:"
+msgstr "Tumblr URL:"
+
+#: functions.php:876
+#@ bugis
+msgid "RSS-Feed URL:"
+msgstr "RSS-Feed URL:"
+
+#: functions.php:881
+#@ bugis
+msgid "RSS for Comments URL:"
+msgstr "RSS voor Reacties URL:"
+
+#: functions.php:886
+#@ bugis
+msgid "Open all links in a new browser tab"
+msgstr "Open alle links in een nieuwe browsertap"
+
+#: header.php:33
+#, php-format
+#@ bugis
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: includes/theme-options.php:59
+#: includes/theme-options.php:60
+#@ bugis
+msgid "Theme Options"
+msgstr "Theme Opties"
+
+#: includes/theme-options.php:123
+#, php-format
+#@ bugis
+msgid "%s Theme Options"
+msgstr "%s Theme Opties"
+
+#: includes/theme-options.php:137
+#@ bugis
+msgid "Link Color"
+msgstr "Link Kleur"
+
+#: includes/theme-options.php:140
+#@ bugis
+msgid "Select a Color"
+msgstr "Kies een kleur"
+
+#: includes/theme-options.php:143
+#, php-format
+#@ bugis
+msgid "Default color: %s"
+msgstr "Standaard kleur: %s"
+
+#: includes/theme-options.php:170
+#@ bugis
+msgid "Custom Logo Image"
+msgstr "Aangepaste Logo afbeelding"
+
+#: includes/theme-options.php:172
+#@ bugis
+msgid "Custom Logo image"
+msgstr "Aangepaste Logo afbeelding"
+
+#: includes/theme-options.php:173
+#@ default
+msgid "custom_logo"
+msgstr ""
+
+#: includes/theme-options.php:174
+#@ bugis
+msgid "Upload your own logo image"
+msgstr "Upload uw eigen logo afbeelding"
+
+#: includes/theme-options.php:174
+#@ bugis
+msgid " using the WordPress Media Library and then insert the URL here"
+msgstr " gebruik de WordPress Mediabibkliotheek en voeg de link hier in"
+
+#: includes/theme-options.php:188
+#: includes/theme-options.php:190
+#@ bugis
+msgid "Custom Footer text"
+msgstr "Aangepaste Footer tekst"
+
+#: includes/theme-options.php:192
+#@ bugis
+msgid "Customize the footer credit text. Standard HTML is allowed."
+msgstr "Pas de footer credit tekst aan. Standaard HTML is toegestaan."
+
+#: includes/theme-options.php:179
+#: includes/theme-options.php:181
+#@ bugis
+msgid "Custom Favicon"
+msgstr "Aangepaste Favicon"
+
+#: includes/theme-options.php:182
+#@ default
+msgid "custom_favicon"
+msgstr ""
+
+#: includes/theme-options.php:183
+#@ bugis
+msgid "Create a favicon image e.g. with <a href=\"http://www.faviconr.com/\" target=\"_blank\">Faviconr</a>, upload your .ico Favicon image (via FTP) to your server and enter the Favicon URL here."
+msgstr "Maak een favicon afbeelding bv. met <a href=\"http://www.faviconr.com/\" target=\"_blank\">Faviconr</a>, upload uw .ico Favicon afbeelding (via FTP) naar uw server en voeg de Favicon URL hier in."
+
+#: search.php:46
+#@ bugis
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#: search.php:50
+#@ bugis
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Sorry, niets voldeed aan uw zoekcriteria. Probeer het aub opnieuw met andere trefwoorden."
+
+#: sharebtn.php:2
+#@ bugis
+msgid "Short URL"
+msgstr "Korte URL"
+
+#: tag.php:16
+#, php-format
+#@ bugis
+msgid "Tag Archives: %s"
+msgstr "Tag Archieven: %s"
+
+#: archive.php:39
+#: author.php:34
+#: index.php:22
+#: search.php:33
+#: tag.php:33
+#@ bugis
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nieuwere artikelen <span class=\"meta-nav\">&rarr;</span>"
+
+#: archive.php:40
+#: author.php:35
+#: index.php:23
+#: search.php:34
+#: tag.php:34
+#@ bugis
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Oudere artikelen"
+
+#: comments.php:26
+#, php-format
+#@ bugis
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Reactie"
+msgstr[1] "%1$s Reacties"
+
+#: comments.php:62
+#@ bugis
+msgid "<p class=\"comment-notes\">Required fields are marked <span class=\"required\">*</span>.</p>"
+msgstr "<p class=\"comment-notes\">Verplichte velden zijn gemarkeerd met een <span class=\"required\">*</span>.</p>"
+
+#: content-aside.php:10
+#: content-audio.php:10
+#: content-chat.php:10
+#: content-gallery.php:10
+#: content-image.php:10
+#: content-link.php:10
+#: content-quote.php:10
+#: content-status.php:10
+#: content-video.php:10
+#: content.php:10
+#@ bugis
+msgid "<h2 class=\"sticky-label\">Featured</h2>"
+msgstr "<h2 class=\"sticky-label\">Uitgelicht</h2>"
+
+#: content-aside.php:13
+#: content-audio.php:13
+#: content-chat.php:13
+#: content-gallery.php:13
+#: content-image.php:13
+#: content-link.php:13
+#: content-quote.php:13
+#: content-single.php:16
+#: content-status.php:13
+#: content-video.php:13
+#: content.php:14
+#: image.php:15
+#@ bugis
+msgid "0"
+msgstr "0"
+
+#: content-aside.php:13
+#: content-audio.php:13
+#: content-chat.php:13
+#: content-gallery.php:13
+#: content-image.php:13
+#: content-link.php:13
+#: content-quote.php:13
+#: content-single.php:16
+#: content-status.php:13
+#: content-video.php:13
+#: content.php:14
+#: image.php:15
+#@ bugis
+msgid "1"
+msgstr "1"
+
+#: content-aside.php:13
+#: content-audio.php:13
+#: content-chat.php:13
+#: content-gallery.php:13
+#: content-image.php:13
+#: content-link.php:13
+#: content-quote.php:13
+#: content-single.php:16
+#: content-status.php:13
+#: content-video.php:13
+#: content.php:14
+#: image.php:15
+#@ bugis
+msgid "%"
+msgstr "%"
+
+#: content-aside.php:13
+#: content-audio.php:13
+#: content-chat.php:13
+#: content-gallery.php:13
+#: content-image.php:13
+#: content-link.php:13
+#: content-quote.php:13
+#: content-single.php:16
+#: content-status.php:13
+#: content-video.php:13
+#: content.php:14
+#: image.php:15
+#@ bugis
+msgid "off"
+msgstr "uit"
+
+#: content-aside.php:30
+#: content-audio.php:34
+#: content-chat.php:34
+#: content-gallery.php:61
+#: content-image.php:29
+#: content-link.php:30
+#: content-quote.php:30
+#: content-single.php:50
+#: content-status.php:30
+#: content-video.php:34
+#: content.php:46
+#@ bugis
+msgid "Categories "
+msgstr "Categorieën"
+
+#: content-aside.php:31
+#: content-audio.php:35
+#: content-chat.php:35
+#: content-gallery.php:62
+#: content-image.php:30
+#: content-link.php:31
+#: content-quote.php:31
+#: content-single.php:51
+#: content-status.php:31
+#: content-video.php:35
+#: content.php:47
+#@ bugis
+msgid "Tags "
+msgstr "Tags"
+
+#: content-aside.php:32
+#: content-audio.php:36
+#: content-chat.php:36
+#: content-gallery.php:63
+#: content-image.php:31
+#: content-link.php:32
+#: content-quote.php:32
+#: content-single.php:52
+#: content-status.php:32
+#: content-video.php:36
+#: content.php:48
+#@ bugis
+msgid "edit post &rarr;"
+msgstr "wijzig artikel &rarr;"
+
+#: content-page.php:17
+#@ bugis
+msgid "edit page &rarr;"
+msgstr "wijzig pagina &rarr;"
+
+#: footer.php:26
+#@ bugis
+msgid "Top"
+msgstr "Naar boven"
+
+#: functions.php:76
+#@ bugis
+msgid "Footer Navigation"
+msgstr "Footer Navigatie"
+
+#. translators: 1: date, 2: time
+#: functions.php:163
+#, php-format
+#@ bugis
+msgid "%1$s at %2$s"
+msgstr "%1$s om %2$s"
+
+#: functions.php:167
+#: functions.php:185
+#@ bugis
+msgid "| Edit &rarr;"
+msgstr "| Wijzig &rarr;"
+
+#: functions.php:747
+#@ bugis
+msgid "deviantART URL:"
+msgstr "deviantART URL:"
+
+#: functions.php:752
+#@ bugis
+msgid "Digg URL:"
+msgstr "Digg URL:"
+
+#: functions.php:762
+#@ bugis
+msgid "Ember URL:"
+msgstr "Ember URL:"
+
+#: image.php:23
+#@ bugis
+msgid "Next Image &rarr;"
+msgstr "Volgende afbeelding &rarr;"
+
+#: image.php:24
+#@ bugis
+msgid "&larr; Previous Image"
+msgstr "&larr; Vorige afbeelding"
+
+#: includes/theme-options.php:75
+#@ bugis
+msgid "Content on left"
+msgstr "Inhoud links"
+
+#: includes/theme-options.php:80
+#@ bugis
+msgid "Content on right"
+msgstr "Inhoud rechts"
+
+#: includes/theme-options.php:85
+#@ bugis
+msgid "One-column, no Sidebar"
+msgstr "Eén kolom, geen sidebar"
+
+#: includes/theme-options.php:135
+#@ bugis
+msgid "Custom Link Color"
+msgstr "Aangepaste link kleur"
+
+#: includes/theme-options.php:148
+#: includes/theme-options.php:150
+#@ bugis
+msgid "Layout Options"
+msgstr "Layout Opties"
+
+#: includes/theme-options.php:197
+#: includes/theme-options.php:199
+#@ bugis
+msgid "Activate the Share Button"
+msgstr "Activeer de Share knop"
+
+#: includes/theme-options.php:201
+#@ bugis
+msgid "Check this box to use the Bugis Share button option in your posts."
+msgstr "Vink dit vakje aan om de Bugis Share knop te gebruiken in je artikelen."
+
+#: sharebtn.php:7
+#@ bugis
+msgid "Share"
+msgstr "Share"
+
+#: single.php:18
+#@ bugis
+msgctxt "Next post link"
+msgid "Next Post &rarr;"
+msgstr "Volgend artikel &rarr;"
+
+#: single.php:19
+#@ bugis
+msgctxt "Previous post link"
+msgid "&larr;  Previous Post"
+msgstr "&larr; Vorig artikel"
+

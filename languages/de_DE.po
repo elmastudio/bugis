@@ -1,0 +1,880 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bugis v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-09-02 17:40:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:14
+#@ bugis
+msgid "Not Found"
+msgstr "Nichts gefunden"
+
+#: 404.php:18
+#@ bugis
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "Entschuldigung, aber die Seite konnte leider nicht gefunden werden. Vielleicht findest du ein Ergebnis über die Suchfunktion."
+
+#: archive.php:21
+#@ bugis
+msgid "Blog Archives"
+msgstr "Blogarchiv"
+
+#: content-aside.php:18
+#: content-audio.php:22
+#: content-chat.php:22
+#: content-gallery.php:49
+#: content-image.php:17
+#: content-link.php:18
+#: content-page.php:16
+#: content-quote.php:18
+#: content-single.php:28
+#: content-status.php:18
+#: content-video.php:22
+#: content.php:33
+#@ bugis
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: category.php:12
+#, php-format
+#@ bugis
+msgid "Category Archives: %s"
+msgstr "Artikel der Kategorie: %s"
+
+#: comments.php:10
+#@ bugis
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Dieser Artikel ist Passwort geschützt. Trage das Passwort ein, um die Kommentare zu sehen."
+
+#: comments.php:36
+#@ bugis
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: comments.php:35
+#@ bugis
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: comments.php:62
+#@ bugis
+msgid "<p class=\"comment-notes\">Required fields are marked <span class=\"required\">*</span>.</p>"
+msgstr "<p class=\"comment-notes\">Pflichtfelder sind mit <span class=\"required\">*</span> markiert.</p>"
+
+#: content-aside.php:17
+#: content-audio.php:21
+#: content-chat.php:21
+#: content-image.php:16
+#: content-link.php:17
+#: content-quote.php:17
+#: content-status.php:17
+#: content-video.php:21
+#: content.php:32
+#@ bugis
+msgid "Continue Reading &rarr;"
+msgstr "Weiterlesen &rarr;"
+
+#: content-audio.php:17
+#: content-chat.php:17
+#: content-gallery.php:17
+#: content-gallery.php:45
+#: content-single.php:20
+#: content-video.php:17
+#: content.php:19
+#: image.php:19
+#, php-format
+#@ bugis
+msgid "Permalink to %s"
+msgstr "Permalink zu %s"
+
+#: functions.php:68
+#@ bugis
+msgid "Primary Navigation"
+msgstr "Hauptnavigation"
+
+#: header.php:33
+#, php-format
+#@ bugis
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: functions.php:101
+#@ bugis
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:147
+#, php-format
+#@ bugis
+msgid "%s"
+msgstr "%s"
+
+#: functions.php:162
+#@ bugis
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar befindet sich in Moderation."
+
+#: functions.php:173
+#@ bugis
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:203
+#: functions.php:204
+#@ bugis
+msgid "Search"
+msgstr "Suche"
+
+#: search.php:49
+#@ bugis
+msgid "Nothing Found"
+msgstr "Keine Einträge gefunden"
+
+#: search.php:53
+#@ bugis
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Entschuldigung, leider wurde zu deiner Suchanfrage kein Eintrag gefunden. Bitte versuche es noch einmal mit anderen Schlagwörtern."
+
+#: single.php:19
+#@ bugis
+msgctxt "Previous post link"
+msgid "&larr;  Previous Post"
+msgstr "&larr;  Vorheriger Artikel"
+
+#: single.php:18
+#@ bugis
+msgctxt "Next post link"
+msgid "Next Post &rarr;"
+msgstr "Nächster Artikel &rarr;"
+
+#: tag.php:16
+#, php-format
+#@ bugis
+msgid "Tag Archives: %s"
+msgstr "Artikel zum Schlagwort:  %s"
+
+#: archive.php:15
+#, php-format
+#@ bugis
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Artikel am: <span>%s</span>"
+
+#: archive.php:17
+#, php-format
+#@ bugis
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Artikel im: <span>%s</span>"
+
+#: archive.php:19
+#, php-format
+#@ bugis
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Artikel des Jahres: <span>%s</span>"
+
+#: author.php:15
+#, php-format
+#@ bugis
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr "Alle Artikel von: <span class=\"vcard\">%s</span>"
+
+#: functions.php:404
+#: functions.php:737
+#@ bugis
+msgid "Title:"
+msgstr "Titel:"
+
+#: content-gallery.php:23
+#: content-gallery.php:41
+#@ bugis
+msgid "View the pictures &rarr;"
+msgstr "Alle Bilder anschauen &rarr;"
+
+#: archive.php:40
+#: author.php:35
+#: category.php:28
+#: index.php:33
+#: search.php:37
+#: tag.php:34
+#@ bugis
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Artikel"
+
+#: archive.php:39
+#: author.php:34
+#: category.php:27
+#: index.php:32
+#: search.php:36
+#: tag.php:33
+#@ bugis
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Artikel <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-gallery.php:44
+#, php-format
+#@ bugis
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>"
+msgstr[0] "Diese Galerie enthält <a %1$s>%2$s Bilder</a>."
+msgstr[1] "Diese Galerie enthält <a %1$s>%2$s Bilder</a>"
+
+#: content-single.php:39
+#, php-format
+#@ bugis
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: footer.php:22
+#, php-format
+#@ bugis
+msgid "Theme: %1$s by %2$s"
+msgstr "Theme: %1$s von %2$s"
+
+#: includes/theme-options.php:138
+#@ bugis
+msgid "Custom Link Color"
+msgstr "Individuelle Linkfarbe"
+
+#: includes/theme-options.php:179
+#@ default
+msgid "custom_logo"
+msgstr ""
+
+#: includes/theme-options.php:180
+#@ bugis
+msgid "Upload your own logo image"
+msgstr "Lade dein eigenes Logobild hoch"
+
+#: comments.php:64
+#@ bugis
+msgctxt "noun"
+msgid "Message <span class=\"required\">*</span>"
+msgstr "Nachricht <span class=\"required\">*</span>"
+
+#: image.php:24
+#@ bugis
+msgid "&larr; Previous Image"
+msgstr "&larr; Vorheriges Bild"
+
+#: image.php:23
+#@ bugis
+msgid "Next Image &rarr;"
+msgstr "Nächstes Bild &rarr;"
+
+#: includes/theme-options.php:59
+#: includes/theme-options.php:60
+#@ bugis
+msgid "Theme Options"
+msgstr "Theme Optionen"
+
+#: includes/theme-options.php:126
+#, php-format
+#@ bugis
+msgid "%s Theme Options"
+msgstr "%s Theme Optionen"
+
+#: includes/theme-options.php:140
+#: includes/theme-options.php:395
+#@ bugis
+msgid "Link Color"
+msgstr "Linkfarbe"
+
+#: includes/theme-options.php:143
+#@ bugis
+msgid "Select a Color"
+msgstr "Wähle eine Farbe"
+
+#: includes/theme-options.php:146
+#, php-format
+#@ bugis
+msgid "Default color: %s"
+msgstr "Standardfarbe: %s"
+
+#: content-aside.php:30
+#: content-audio.php:34
+#: content-chat.php:34
+#: content-gallery.php:61
+#: content-image.php:29
+#: content-link.php:30
+#: content-quote.php:30
+#: content-single.php:55
+#: content-status.php:30
+#: content-video.php:34
+#: content.php:46
+#@ bugis
+msgid "Categories "
+msgstr "Kategorien "
+
+#: content-aside.php:31
+#: content-audio.php:35
+#: content-chat.php:35
+#: content-gallery.php:62
+#: content-image.php:30
+#: content-link.php:31
+#: content-quote.php:31
+#: content-single.php:56
+#: content-status.php:31
+#: content-video.php:35
+#: content.php:47
+#@ bugis
+msgid "Tags "
+msgstr "Schlagwörter "
+
+#: functions.php:155
+#: functions.php:173
+#@ bugis
+msgid "| Edit &rarr;"
+msgstr "| Bearbeiten &rarr;"
+
+#: functions.php:156
+#@ bugis
+msgid "Reply"
+msgstr "Antworten"
+
+#: comments.php:26
+#, php-format
+#@ bugis
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Kommentar"
+msgstr[1] "%1$s Kommentare"
+
+#: comments.php:65
+#@ bugis
+msgid "Send"
+msgstr "Senden"
+
+#: content-aside.php:13
+#: content-audio.php:13
+#: content-chat.php:13
+#: content-gallery.php:13
+#: content-image.php:13
+#: content-link.php:13
+#: content-quote.php:13
+#: content-single.php:16
+#: content-status.php:13
+#: content-video.php:13
+#: content.php:14
+#: image.php:15
+#@ bugis
+msgid "0"
+msgstr ""
+
+#: content-aside.php:13
+#: content-audio.php:13
+#: content-chat.php:13
+#: content-gallery.php:13
+#: content-image.php:13
+#: content-link.php:13
+#: content-quote.php:13
+#: content-single.php:16
+#: content-status.php:13
+#: content-video.php:13
+#: content.php:14
+#: image.php:15
+#@ bugis
+msgid "1"
+msgstr ""
+
+#: content-aside.php:13
+#: content-audio.php:13
+#: content-chat.php:13
+#: content-gallery.php:13
+#: content-image.php:13
+#: content-link.php:13
+#: content-quote.php:13
+#: content-single.php:16
+#: content-status.php:13
+#: content-video.php:13
+#: content.php:14
+#: image.php:15
+#@ bugis
+msgid "%"
+msgstr ""
+
+#: footer.php:26
+#@ bugis
+msgid "Top"
+msgstr ""
+
+#: functions.php:186
+#@ bugis
+msgid "Main Sidebar"
+msgstr "Haupt-Sidebar"
+
+#: functions.php:69
+#@ bugis
+msgid "Footer Navigation"
+msgstr "Footer-Navigation"
+
+#: content-aside.php:13
+#: content-audio.php:13
+#: content-chat.php:13
+#: content-gallery.php:13
+#: content-image.php:13
+#: content-link.php:13
+#: content-quote.php:13
+#: content-single.php:16
+#: content-status.php:13
+#: content-video.php:13
+#: content.php:14
+#: image.php:15
+#@ bugis
+msgid "off"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: functions.php:151
+#, php-format
+#@ bugis
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#: content-aside.php:32
+#: content-audio.php:36
+#: content-chat.php:36
+#: content-gallery.php:63
+#: content-image.php:31
+#: content-link.php:32
+#: content-quote.php:32
+#: content-single.php:57
+#: content-status.php:32
+#: content-video.php:36
+#: content.php:48
+#@ bugis
+msgid "edit post &rarr;"
+msgstr "Artikel bearbeiten &rarr;"
+
+#: content-page.php:17
+#@ bugis
+msgid "edit page &rarr;"
+msgstr "Seite bearbeiten &rarr;"
+
+#: comments.php:52
+#@ bugis
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: sharebtn.php:7
+#@ bugis
+msgid "Share"
+msgstr "Teilen"
+
+#: functions.php:412
+#@ bugis
+msgid "Number of photos:"
+msgstr "Anzahl von Bildern:"
+
+#: functions.php:422
+#@ bugis
+msgid "User"
+msgstr "Person"
+
+#: functions.php:423
+#@ bugis
+msgid "Group"
+msgstr "Gruppe"
+
+#: functions.php:427
+#@ bugis
+msgid "Show latest or random pictures:"
+msgstr "Zeige neuste oder zufällige Bilder:"
+
+#: functions.php:429
+#@ bugis
+msgid "Latest"
+msgstr "Neuste"
+
+#: functions.php:430
+#@ bugis
+msgid "Random"
+msgstr "Zufällige"
+
+#: functions.php:420
+#@ bugis
+msgid "Choose user or group:"
+msgstr "Wähle Person oder Gruppe:"
+
+#: footer.php:22
+#@ bugis
+msgid "Proudly powered by"
+msgstr ""
+
+#: functions.php:370
+#@ bugis
+msgid "Flickr Widget"
+msgstr ""
+
+#: functions.php:408
+#@ bugis
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\" target=\"_blank\">idGettr</a>):"
+msgstr ""
+
+#: functions.php:447
+#@ bugis
+msgid "Social Links Widget"
+msgstr ""
+
+#: functions.php:741
+#@ bugis
+msgid "Behance Network URL:"
+msgstr ""
+
+#: functions.php:746
+#@ bugis
+msgid "Delicious URL:"
+msgstr ""
+
+#: functions.php:751
+#@ bugis
+msgid "deviantART URL:"
+msgstr ""
+
+#: functions.php:756
+#@ bugis
+msgid "Digg URL:"
+msgstr ""
+
+#: functions.php:761
+#@ bugis
+msgid "Dribbble URL:"
+msgstr ""
+
+#: functions.php:766
+#@ bugis
+msgid "Ember URL:"
+msgstr ""
+
+#: functions.php:771
+#@ bugis
+msgid "Facebook URL:"
+msgstr ""
+
+#: functions.php:776
+#@ bugis
+msgid "Ffffound URL:"
+msgstr ""
+
+#: functions.php:791
+#@ bugis
+msgid "Flickr URL:"
+msgstr ""
+
+#: functions.php:801
+#@ bugis
+msgid "Foursquare URL:"
+msgstr ""
+
+#: functions.php:811
+#@ bugis
+msgid "Gowalla URL:"
+msgstr ""
+
+#: functions.php:816
+#@ bugis
+msgid "Grooveshark URL:"
+msgstr ""
+
+#: functions.php:821
+#@ bugis
+msgid "Last.fm URL:"
+msgstr ""
+
+#: functions.php:831
+#@ bugis
+msgid "Linkedin URL:"
+msgstr ""
+
+#: functions.php:836
+#@ bugis
+msgid "Picasa URL:"
+msgstr ""
+
+#: functions.php:841
+#@ bugis
+msgid "Slideshare URL:"
+msgstr ""
+
+#: functions.php:846
+#@ bugis
+msgid "Squidoo URL:"
+msgstr ""
+
+#: functions.php:851
+#@ bugis
+msgid "Tumblr URL:"
+msgstr ""
+
+#: functions.php:856
+#@ bugis
+msgid "Twitter URL:"
+msgstr ""
+
+#: functions.php:861
+#@ bugis
+msgid "Vimeo URL:"
+msgstr ""
+
+#: functions.php:866
+#@ bugis
+msgid "WordPress URL:"
+msgstr ""
+
+#: functions.php:876
+#@ bugis
+msgid "Xing URL:"
+msgstr ""
+
+#: functions.php:881
+#@ bugis
+msgid "YouTube URL:"
+msgstr ""
+
+#: functions.php:886
+#@ bugis
+msgid "Zootool URL:"
+msgstr ""
+
+#: includes/theme-options.php:75
+#@ bugis
+msgid "Content on left"
+msgstr "Inhalt links"
+
+#: includes/theme-options.php:80
+#@ bugis
+msgid "Content on right"
+msgstr "Inhalt rechts"
+
+#: includes/theme-options.php:154
+#: includes/theme-options.php:156
+#@ bugis
+msgid "Layout Options"
+msgstr "Layout Optionen"
+
+#: includes/theme-options.php:176
+#@ bugis
+msgid "Custom Logo Image"
+msgstr "Eigenes Logobild"
+
+#: includes/theme-options.php:178
+#@ bugis
+msgid "Custom Logo image"
+msgstr "Eigenes Logobild"
+
+#: includes/theme-options.php:180
+#@ bugis
+msgid " using the WordPress Media Library and then insert the URL here"
+msgstr ", indem du die WordPress Mediathek nutzt und die Bild URL dann hier einträgst."
+
+#: includes/theme-options.php:197
+#: includes/theme-options.php:199
+#@ bugis
+msgid "Custom Favicon"
+msgstr "Eigenes Favicon"
+
+#: includes/theme-options.php:200
+#@ default
+msgid "custom_favicon"
+msgstr ""
+
+#: includes/theme-options.php:201
+#@ bugis
+msgid "Create a favicon image e.g. with <a href=\"http://www.faviconr.com/\" target=\"_blank\">Faviconr</a>, upload your .ico Favicon image (via FTP) to your server and enter the Favicon URL here."
+msgstr "Erstelle zuerst ein Favicon-Bild. z.B. mit <a href=\"http://www.faviconr.com/\" target=\"_blank\">Faviconr</a>. Dann lädst du das .ico Faviconbild (via FTP) auf deinen Server hoch und trägst die URL hier ein."
+
+#: includes/theme-options.php:185
+#: includes/theme-options.php:187
+#@ bugis
+msgid "Custom Footer text"
+msgstr "Footer Text anpassen"
+
+#: includes/theme-options.php:189
+#@ bugis
+msgid "Customize the footer credit text. Standard HTML is allowed."
+msgstr "Trage deinen eigenen Footer-Text ein. Standard HTML-Code ist möglich."
+
+#: includes/theme-options.php:218
+#: includes/theme-options.php:220
+#@ bugis
+msgid "Activate the Share Button"
+msgstr "Aktiviere den Teilen-Button"
+
+#: includes/theme-options.php:222
+#@ bugis
+msgid "Check this box to use the Bugis Share button option in your posts."
+msgstr "Mache hier ein Häkchen, um den slidenden Teilen-Button des Bugis-Themes zu nutzen."
+
+#: content-aside.php:10
+#: content-audio.php:10
+#: content-chat.php:10
+#: content-gallery.php:10
+#: content-image.php:10
+#: content-link.php:10
+#: content-quote.php:10
+#: content-status.php:10
+#: content-video.php:10
+#: content.php:10
+#@ bugis
+msgid "<h2 class=\"sticky-label\">Featured</h2>"
+msgstr ""
+
+#: includes/theme-options.php:85
+#@ bugis
+msgid "One-column, no Sidebar"
+msgstr "einspaltig, keine Sidebar"
+
+#: sharebtn.php:2
+#@ bugis
+msgid "Short URL"
+msgstr "Kurz-URL"
+
+#: functions.php:806
+#@ bugis
+msgid "Google+ URL:"
+msgstr ""
+
+#: functions.php:890
+#@ bugis
+msgid "RSS-Feed URL:"
+msgstr ""
+
+#: functions.php:895
+#@ bugis
+msgid "RSS for Comments URL:"
+msgstr "RSS für Kommentare URL:"
+
+#: content-aside.php:12
+#: content-audio.php:12
+#: content-chat.php:12
+#: content-gallery.php:12
+#: content-image.php:12
+#: content-link.php:12
+#: content-quote.php:12
+#: content-single.php:12
+#: content-single.php:14
+#: content-status.php:12
+#: content-video.php:12
+#: content.php:13
+#: image.php:14
+#@ bugis
+msgid "Permalink"
+msgstr ""
+
+#: functions.php:781
+#@ bugis
+msgid "Pinterest URL:"
+msgstr ""
+
+#: functions.php:786
+#@ bugis
+msgid "500px URL:"
+msgstr ""
+
+#: functions.php:796
+#@ bugis
+msgid "Instagram URL (e.g. via Instagrid.me):"
+msgstr ""
+
+#: functions.php:826
+#@ bugis
+msgid "Soundcloud URL:"
+msgstr ""
+
+#: functions.php:871
+#@ bugis
+msgid "GitHub URL:"
+msgstr ""
+
+#: functions.php:900
+#@ bugis
+msgid "Open all links in a new browser tab"
+msgstr "Öffne alle Links in einem neuen Browser-Tab"
+
+#: includes/theme-options.php:137
+#@ bugis
+msgid "Custom Color"
+msgstr "Eigene Farbe"
+
+#: includes/theme-options.php:153
+#@ bugis
+msgid "Layout Options, Custom Logo, Custom Footer Text"
+msgstr "Layout Optionen, eigenes Logo, eigener Footer-Text"
+
+#: includes/theme-options.php:196
+#@ bugis
+msgid "Favicon and Apple Touch Icon"
+msgstr "Favicon und Apple Touch Icon"
+
+#: includes/theme-options.php:206
+#: includes/theme-options.php:208
+#@ bugis
+msgid "Custom Apple Touch Icon"
+msgstr "Eigenes Apple Touch Icon"
+
+#: includes/theme-options.php:210
+#@ bugis
+msgid "Create a <strong>128x128px png</strong> image for your webclip icon. Upload your image using the "
+msgstr "Erstelle ein <strong>128x128px png</strong> großes Bild für dein Webclip Icon. Lade dein Bild hoch über den  "
+
+#: includes/theme-options.php:210
+#@ bugis
+msgid "WordPress Media Uploader"
+msgstr "WordPress Media Uploader"
+
+#: includes/theme-options.php:210
+#@ bugis
+msgid ". Now copy the image file URL and insert the URL here."
+msgstr ". Jetzt kopiere deine Bild URL und trage die URL hier ein."
+
+#: includes/theme-options.php:217
+#@ bugis
+msgid "Share Buttons, Sub Menu Option, Responsive Slider"
+msgstr "Teilen-Buttons, Untermenüpunkte-Option, Responsive Slider"
+
+#: includes/theme-options.php:227
+#: includes/theme-options.php:229
+#@ bugis
+msgid "Hide sub menus on mobile devices"
+msgstr "Verstrecke die Untermenüpunkte auf mobilen Geräten"
+
+#: includes/theme-options.php:231
+#@ bugis
+msgid "Check this box to hide the main navigation sub menus on mobile devices (tablets and smartphones). With this option your readers can focus mainly on your latest articles even if they view your site on small screens."
+msgstr "Wähle diese Option, um die Untermenüpunkte der Hauptnavigation auf mobilen Geräten (Tablets und Smartphones) zu verbergen. Mit Hilfe dieser Option kannst du den Fokus auf mobilen Geräten auf deine wichtigsten Inhalte (die neuesten Artikel) richten, ohne dass das Hauptmenü auf kleinen Bildschirmen zu viel Platz einnimmt."
+
+#: includes/theme-options.php:236
+#: includes/theme-options.php:238
+#@ bugis
+msgid "Include Responsive Slider"
+msgstr "Integriere den Responsive Slider"
+
+#: includes/theme-options.php:402
+#@ bugis
+msgid "Layout"
+msgstr "Layout"
+
+#: search.php:14
+#, php-format
+#@ bugis
+msgid "Search Results for &lsquo;%s&rsquo;"
+msgstr "Suchergebnisse für &lsquo;%s&rsquo;"
+
+#: includes/theme-options.php:240
+#@ bugis
+msgid "Check this box to inlcude the Responsive Slider WordPress-Plugin at the top of your latest posts on your blogs front page."
+msgstr "Wähle diese Option, um den Bilder-Slider des Responsive Slider WordPress-Plugins über deinen neuesten Artikeln auf der Blog-Startseite zu integrieren."
+
