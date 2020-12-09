@@ -216,8 +216,7 @@ add_filter( 'get_search_form', 'bugis_search_form' );
 /*-----------------------------------------------------------------------------------*/
 /*  Removes the default CSS style from the WP image gallery
 /*-----------------------------------------------------------------------------------*/
-add_filter('gallery_style', create_function('$a', 'return "
-<div class=\'gallery\'>";'));
+add_filter('gallery_style', function($a) { return "<div class=\'gallery\'>"; } );
 
 
 /*-----------------------------------------------------------------------------------*/
