@@ -27,6 +27,7 @@
 			<div class="entry-content">
 			<?php
 				$images = get_children( array( 'post_parent' => $post->ID, 'post_type' => 'attachment', 'post_mime_type' => 'image', 'orderby' => 'menu_order', 'order' => 'ASC', 'numberposts' => 999 ) );
+				$total_images = 0; /* __php8 */
 				if ( $images ) :
 					$total_images = count( $images );
 					$image = array_shift( $images );

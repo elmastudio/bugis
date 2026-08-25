@@ -383,6 +383,7 @@ class bugis_flickr extends WP_Widget {
 	}
 
 	function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'id' => '', 'number' => '', 'type' => '', 'sorting' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$id = $instance['id'];
@@ -405,6 +406,7 @@ class bugis_flickr extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'id' => '', 'number' => '', 'type' => '', 'sorting' => '' ) );
 		$title = esc_attr($instance['title']);
 		$id = esc_attr($instance['id']);
 		$number = esc_attr($instance['number']);
@@ -461,6 +463,7 @@ register_widget('bugis_flickr');
 	}
 
 	function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'behance' => '', 'delicious' => '', 'deviantart' => '', 'digg' => '', 'dribbble' => '', 'ember' => '', 'facebook' => '', 'ffffound' => '', 'pinterest' => '', 'fivehundredpx' => '', 'flickr' => '', 'instagram' => '', 'foursquare' => '', 'googleplus' => '', 'gowalla' => '', 'grooveshark' => '', 'lastfm' => '', 'soundcloud' => '', 'linkedin' => '', 'picasa' => '', 'slideshare' => '', 'squidoo' => '', 'tumblr' => '', 'twitter' => '', 'vimeo' => '', 'wordpress' => '', 'github' => '', 'xing' => '', 'youtube' => '', 'zootool' => '', 'rss' => '', 'rsscomments' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$behance = $instance['behance'];
@@ -645,6 +648,7 @@ register_widget('bugis_flickr');
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'behance' => '', 'delicious' => '', 'deviantart' => '', 'digg' => '', 'dribbble' => '', 'ember' => '', 'facebook' => '', 'ffffound' => '', 'pinterest' => '', 'fivehundredpx' => '', 'flickr' => '', 'instagram' => '', 'foursquare' => '', 'googleplus' => '', 'gowalla' => '', 'grooveshark' => '', 'lastfm' => '', 'soundcloud' => '', 'linkedin' => '', 'picasa' => '', 'slideshare' => '', 'squidoo' => '', 'tumblr' => '', 'twitter' => '', 'vimeo' => '', 'wordpress' => '', 'github' => '', 'xing' => '', 'youtube' => '', 'zootool' => '', 'rss' => '', 'rsscomments' => '' ) );
 		$title = esc_attr($instance['title']);
 		$behance = esc_attr($instance['behance']);
 		$delicious = esc_attr($instance['delicious']);
@@ -848,3 +852,14 @@ register_widget('bugis_flickr');
 }
 
 register_widget('bugis_sociallinks');
+
+/* __php8_option_defaults: never let the theme options be false or miss a key (PHP 8). */
+function bugis_php8_option_defaults( $options = array() ) {
+	$fallback = array_fill_keys( array( 'sharebtn', 'custom_footertext', 'use-slider', 'link_color', 'theme_layout', 'custom_logo', 'hide_submenus', 'custom_favicon', 'custom_apple_icon' ), '' );
+	if ( function_exists( 'bugis_get_default_theme_options' ) ) {
+		$fallback = array_merge( $fallback, (array) bugis_get_default_theme_options() );
+	}
+	return wp_parse_args( is_array( $options ) ? $options : array(), $fallback );
+}
+add_filter( 'default_option_bugis_theme_options', 'bugis_php8_option_defaults' );
+add_filter( 'option_bugis_theme_options', 'bugis_php8_option_defaults' );
