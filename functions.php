@@ -197,7 +197,7 @@ function bugis_widgets_init() {
 	) );
 
 }
-add_action( 'init', 'bugis_widgets_init' );
+add_action( 'widgets_init', 'bugis_widgets_init' );
 
 /*-----------------------------------------------------------------------------------*/
 /*  Customize the Bugis search form
@@ -448,7 +448,6 @@ class bugis_flickr extends WP_Widget {
 	}
 }
 
-register_widget('bugis_flickr');
 
 /*-----------------------------------------------------------------------------------*/
 /*  Custom Bugis Social Links Widget
@@ -851,7 +850,6 @@ register_widget('bugis_flickr');
 	}
 }
 
-register_widget('bugis_sociallinks');
 
 /* __php8_option_defaults: never let the theme options be false or miss a key (PHP 8). */
 function bugis_php8_option_defaults( $options = array() ) {
@@ -863,3 +861,15 @@ function bugis_php8_option_defaults( $options = array() ) {
 }
 add_filter( 'default_option_bugis_theme_options', 'bugis_php8_option_defaults' );
 add_filter( 'option_bugis_theme_options', 'bugis_php8_option_defaults' );
+
+
+/**
+ * Registered on widgets_init, which is where WordPress asks for it. At file
+ * scope each widget's constructor translated its own name before init, which
+ * WordPress 6.7 reports on every request.
+ */
+function bugis_register_widgets() {
+	register_widget( 'bugis_flickr' );
+	register_widget( 'bugis_sociallinks' );
+}
+add_action( 'widgets_init', 'bugis_register_widgets' );
